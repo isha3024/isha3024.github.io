@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Coffee Shop</title>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="navigation grid container">
+            <a href="/" class="logo-content flex">
+                <i class="bx bx-coffee logo-icon"></i>
+                <span class="logo-text">Coffee.</span>
+            </a>
+            <div class="menu-content">
+                <ul class="menu-list flex">
+                    <li><a href="#home" class="nav-link active-navlink">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#review" class="nav-link">Reviews</a></li>
+                </ul>
+                <div class="media-icons flex">
+                    <a href="#">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-youtube"></i>
+                    </a>
+                </div>
+                <i class="bx bx-x navClose-btn"></i>
+            </div>
+            <div class="contact-content flex">
+                <i class="bx bx-phone phone-icon"></i>
+                <span class="phone-number">0022-0033-0044</span>
+            </div>
+            <i class="bx bx-menu navOpen-btn"></i>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home -->
+        <section class="home section-main" id="home">
+            <div class="home-content">
+                <div class="slider swiper">
+                    <div class="swiper-wrapper" id="bannerSlider">
+                        <!-- Dynamic code using JS -->
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn-next navigation-btn"></div>
+                    <div class="swiper-button-prev swiper-navBtn-prev navigation-btn"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about section-main" id="about">
+            <div class="about-content container">
+                <div class="about-imgContent">
+                    <img src="./img/aboutImg.jpg" alt="About image">
+                    <div class="about-imgtext text-center">
+                        <i class="bx bx-heart flex"></i>
+                        <p class="textContent">I really love the Cappucino. The coffee war very smooth.</p>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="about-text">
+                        <h4 class="content-subtitle">Our Coffee Shop</h4>
+                        <h2 class="content-title">We Combine Classic <br> and Modernity</h2>
+                        <p class="content-description">We appreciate your trust greatly. Our clients choose us and our products because theyknow we are the best.</p>
+                        <ul class="content-list flex">
+                            <li>Cappucino</li>
+                            <li class="dot">.</li>
+                            <li>Latte</li>
+                            <li class="dot">.</li>
+                            <li>Arabica</li>
+                        </ul>
+                    </div>
+                    <div class="about-buttons flex">
+                        <button class="button">About Us</button>
+                        <a href="#" class="about-link flex">
+                            <span class="link-text">See More</span>
+                            <i class="bx bx-right-arrow-alt about-arrowIcon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="section menu section-main" id="menu">
+            <div class="menu-container container">
+                <div class="menu-text text-center">
+                    <h4 class="section-subtitle">Our Menu</h4>
+                    <h2 class="section-title text-white">Our Popular Menu</h2>
+                    <p class="section-description">Our place designed by pro architecture with psychologist to build best place suit you. Our place designed by pro architecture with psychologist to build best place suit you.</p>
+                </div>
+                <div class="menu-content">
+                    <div class="menu-items" id="menu_items">
+                        <!-- Dynamic code using JS -->
+                    </div>
+                    <div class="time-table">
+                        <h4 class="time-topic">Categories Time</h4>
+                        <ul class="time-lists" id="time_lists">
+                            <!-- Dynamic code using JS -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands -->
+        <section class="section brand">
+            <div class="brand-container container">
+                <h4 class="section-subtitle text-center">Our Trusted Brands</h4>
+                <div class="brand-wrapper" id="brand_wrapper">
+                    <!-- Dynamic code using JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="section review section-main" id="review">
+            <div class="review-container container">
+                <h4 class="section-subtitle text-center">Reviews</h4>
+                <h2 class="section-title text-center">What Clients Says</h2>
+                <div class="swiper slider">
+                    <div class="swiper-wrapper mt-8 pt-8" id="reviews_wrapper">
+                        <!-- Dynamic code using JS -->
+                    </div>
+                    <div class="swiper-button-next swiper-reviewBtn-next navigation-btn"></div>
+                    <div class="swiper-button-prev swiper-reviewBtn-prev navigation-btn"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="section newsletter">
+            <div class="newsletter-container container">
+                <a href="#" class="logo-content flex justify-center">
+                    <i class="bx bx-coffee logo-icon"></i>
+                    <span class="logo-text">Coffee</span>
+                </a>
+                <p class="section-description text-center">This is the perfect place to find a nice and cozy spot to sip some. You'll find the Java Jungle, Coffee Bean and more shops right in this website.</p>
+                <div class="newsletter-inputBox">
+                    <input type="email" class="newsletter-input" placeholder="emai@example.com">
+                    <button class="button newsletter-btn flex">Subscribe</button>
+                </div>
+                <div class="newsletter media-icons justify-center">
+                    <a href="#">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="section footer">
+        <div class="footer-container container">
+            <div class="footer-content">
+                <a href="#" class="logo-content flex">
+                    <i class="bx bx-coffee logo-icon"></i>
+                    <span class="logo-text">Coffee</span>
+                </a>
+                <p class="content-description">Coffee is a cafe that serve many variant of coffee and other dishes with very comfortable place.</p>
+                <div class="footer-location flex">
+                    <i class="bx bx-map map-icon"></i>
+                    <p class="location-text">
+                        USA Californa 65 South Fifth St.Sicklerville, NJ 08081
+                    </p>
+                </div>
+            </div>
+            <div class="footer-linkContent">
+                <div class="footer-link-wrapper">                
+                    <h4 class="footerLink-title">Facility</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Private Room</a></li>
+                        <li><a href="#" class="footer-link">Meeting Room</a></li>
+                        <li><a href="#" class="footer-link">Event Room</a></li>
+                        <li><a href="#" class="footer-link">Creative Studio</a></li>
+                        <li><a href="#" class="footer-link">Custom Room</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-wrapper">
+                    <h4 class="footerLink-title">Facility</h4>
+                    <ul class="footer-links">
+                            <li><a href="#" class="footer-link">Coffee</a></li>
+                            <li><a href="#" class="footer-link">Beverages</a></li>
+                            <li><a href="#" class="footer-link">Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-wrapper">
+                    <h4 class="footerLink-title">Support</h4>
+                    <ul class="footer-links">
+                         <li><a href="#" class="footer-link">About Us</a></li>
+                         <li><a href="#" class="footer-link">FAQs</a></li>
+                         <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                         <li><a href="#" class="footer-link">Help Us</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <div class="footer-copyRight text-center">&copy; Coffee. All Rights Reserved</div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
